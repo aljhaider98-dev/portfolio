@@ -55,7 +55,7 @@ export class UserService {
     // Send OTP through Resend
     const { error } = await this.resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'aljhaider98@gmail.com',
+      to: 'g35231861@gmail.com',
       subject: 'Your Verification OTP',
       html: `
         <h2>Email Verification</h2>
